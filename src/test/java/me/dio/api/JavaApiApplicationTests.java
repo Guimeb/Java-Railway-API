@@ -1,4 +1,4 @@
-package Guimeb.github.Java.API;
+package me.dio.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
