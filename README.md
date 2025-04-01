@@ -46,3 +46,33 @@ Este projeto foi desenvolvido durante o Bootcamp Decola Tech 2025 com o objetivo
 
 ## Diagrama de Classes
 
+classDiagram
+    class User {
+      +Long id
+      +String name
+      +List~Account~ accounts
+    }
+    
+    class Account {
+      +Long id
+      +String number
+      +String agency
+      +BigDecimal balance
+      +BigDecimal credit_limit
+      +List~Transaction~ transactions
+      +User user
+    }
+    
+    class Transaction {
+      +Long id
+      +String name
+      +BigDecimal transaction_value
+      +LocalDate date
+      +String description
+      +Account account
+    }
+    
+    User "1" o-- "*" Account : has
+    Account "1" o-- "*" Transaction : contains
+    Account "*" --> "1" User : belongs to
+
