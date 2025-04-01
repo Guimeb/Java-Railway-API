@@ -42,10 +42,14 @@ Este projeto foi desenvolvido durante o Bootcamp Decola Tech 2025 com o objetivo
 
 ## Protótipo no Figma
 
-[Acesse o protótipo no Figma](https://figma.com/seu-link-prototipo)
+![Figma](Figma-Template.png)
+
+
+[Acesse o protótipo no Figma]([https://figma.com/seu-link-prototipo](https://www.figma.com/design/2IWJMMjFkQ9iSZUeefHyxU/Decola-Tech-Api-Template?node-id=0-1&t=oZPmw3djUchULiao-1))
 
 ## Diagrama de Classes
 
+```mermaid
 classDiagram
     class User {
       +Long id
