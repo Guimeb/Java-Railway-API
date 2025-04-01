@@ -8,7 +8,6 @@ Este projeto foi desenvolvido durante o Bootcamp Decola Tech 2025 com o objetivo
 - Java 21
 - Spring Boot 3.4.4
 - Spring Data JPA
-- Hibernate ORM 6.6.11.Final
 - H2 Database (em memória)
 - Maven
 - PostgreSQL
